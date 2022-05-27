@@ -1,0 +1,91 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@ &display=swap');
+
+form{white-space: 90%;
+	background: #101010;
+	margin: 5rem auto;
+	padding: 3% 5%;
+	border-radius: 10px;
+}
+
+form{ width: 30%; }
+
+input[type="submit"]{
+	background-color: white;
+	color: white;
+
+	margin-top: 1rem;
+}
+
+form h1{text-align: center;}
+
+input{width: 100%;
+	border-radius: 5px;
+	border: solid 1px #ddd;
+	padding: 0.5rem;
+	margin: 0.3rem 0 0 0;
+}
+
+label{display: block;
+	margin: 1rem 0 0 0; color: white;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+
+.boton{background-color: gray;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	color: gray;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+
+.turno{font-size: 12px;}
+
+input[type="radio"]{width: auto;}
+
+input[type="checkbox"]{width: auto;}
+
+body {font-family: Bodoni Std; background:black;}
+
+header {background:black;}
+
+header img {width: 20%}
+
+nav {background: #e1e1e1;
+color: black;}
+
+nav a{ 
+	color: black;
+	margin: 30px;
+	text-decoration: none;
+	font-size: 1.5rem;
+
+}
+main { /*padding-left: 20%;
+       padding-right: 20%;*/
+
+/*padding: 0 20% 0 20%;*/
+       
+width: 60%;
+margin: 50px 10% 100px 20%;
+       }
+
+       main img {width: 30%}
+
+h1 { font-family: Nerea; color: white; font-size: 3rem;}
+
+p { font-family: Bodoni Std; color: white; font-size: 2rem;
+text-align: justify;}
+
+footer { font-size: 2rem; background: #101010; 
+	padding: 50px; }
+
+footer p {font-size: 0.6rem;
+text-align: center;}
+
+.gracias{padding-left: 35%; padding-right: 35%; padding-top: 20%; text-align: center;}
+
+.gracias a{color: white; font-size: 1.5rem; text-align: center; padding: 1%;}
+
+.gracias2{padding: 1%; text-align: center;}
+

@@ -1,0 +1,90 @@
+*{box-sizing: border-box; font-family: Bodoni Std; margin: 0 auto; padding: 0;}
+
+.sec-1 { width: 100%;
+	     height: auto;
+	     display: flex;
+	     flex-direction: row; 
+	     flex-flow: wrap;
+	     justify-content: center;
+	     align-items: center;
+	     padding: 1% 0 0 0;
+ }
+
+ .vino{ margin: 10px;
+ 	width: 30%;
+ 	height: 25%;
+ 	background: #101010;
+ 	text-align: center;
+ 	box-shadow: 0 8px 8px -4px gray;
+ 	padding-left: 1%;
+    padding-right: 1%
+  
+  }
+
+  .vino img{width: 100%;}
+
+  .vino h1{font-size: 30px;
+  	padding: 5% 0 0 0;
+  	color: white;
+  }
+
+.vino p{font-size: 16px;
+	padding: 2% 0 10% 0;
+	color: white;
+}
+
+body {font-family: Bodoni Std; background:black;}
+
+header {background:black;}
+
+header img {width: 20%}
+
+img	{width: 100%;}
+
+nav {background: #e1e1e1;
+color: black;}
+
+nav a{ 
+	color: black;
+	margin: 30px;
+	text-decoration: none;
+	font-size: 1.5rem;
+
+}
+main { /*padding-left: 20%;
+       padding-right: 20%;*/
+
+/*padding: 0 20% 0 20%;*/
+       
+width: 100%;
+       }
+
+       main h2 {font-family: Nerea; color: white; font-size: 2rem; padding-left: 46%;
+    padding-right: 40%; text-align: center; padding: 10px;}
+
+
+h1 { font-family: Nerea; color: white; font-size: 4rem; padding-left: 30%;
+    padding-right: 30%; text-align: center; padding: 20px;}
+
+p { font-family: Bodoni Std; color: white; font-size: 2rem;
+text-align: justify; padding: 30px; padding-left: 20%;
+    padding-right: 20%;}
+
+footer { font-size: 2rem; background: #101010; 
+	padding: 50px; }
+
+footer p {font-size: 0.6rem;
+text-align: center;}
+
+main ul{font-family: Bodoni Std; color: white; font-size: 2rem;
+text-align: justify; padding: 20px; padding-left: 45%;
+    padding-right: 40%;}
+
+
+
+@media screen and (max-width: 768px){
+
+	.sec-1{flex-direction: column;}
+
+	.vino{width: 70%;}
+} 
